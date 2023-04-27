@@ -9,8 +9,14 @@ function showValue(){
     console.log(desconto);
 
     const valorElement = document.createElement("p");
-    valorElement.textContent = `O valor do desconto é de $${desconto} reais`;
-
+    
     const divDosResultados = document.querySelector(".valor-desconto");
     divDosResultados.appendChild(valorElement);
+
+    if (desconto < 1){
+        valorElement.textContent = `O valor do desconto é de $${desconto} centavos`
+    }
+     else {
+        valorElement.textContent = `O valor do desconto é de $${desconto} reais`;
+    }
 }
