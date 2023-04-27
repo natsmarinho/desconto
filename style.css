@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+fieldset{
+    margin-top: 4em;
+    border-radius: 8px;
+}
+
+legend{
+    font-size: 2em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+label{
+    font-size: 1.5em;
+    margin-bottom: .5em
+}
+
+input{
+    margin-bottom: 3em;
+    padding: 1em;
+    border-radius: 8px;
+    background-color: rgb(209, 199, 199);
+}
+
+button{
+    width: 40%;
+    margin: auto;
+    padding: .7em;
+    font-size: 1.4em;
+    border-radius: 8px;
+}
