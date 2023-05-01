@@ -15,6 +15,7 @@ form{
     flex-direction: column;
     margin-top: 2em;
     margin-bottom: 2em;
+    align-items: center;
 }
 
 label{
@@ -24,6 +25,7 @@ label{
 
 input{
     margin-bottom: 3em;
+    width: 80%;
     padding: 1em;
     border-radius: 8px;
     background-color: rgb(209, 199, 199);
