@@ -43,3 +43,33 @@ button{
 .valorNaTela{
     font-size: 2em;
 }
+
+/*----------------------------------------------------------------TABLET 1024PX------------------------------------------------------*/
+
+@media screen and (min-width: 1024px){
+    button{
+        width: 30%;
+        padding-block: 1em;
+    }
+}
+
+/*----------------------------------------------------------------DESKTOP------------------------------------------------------*/
+
+@media screen and (min-width: 1220px){
+    fieldset{
+        margin-inline: 3em;
+    }
+
+    legend{
+        font-size: 2.5em;
+    }
+
+    label{
+        font-size: 2em;
+    }
+
+    button{
+        font-size: 2em;
+        width: 25%;
+    }
+}
