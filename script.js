@@ -10,6 +10,8 @@ function showValue(){
 
     const valorElement = document.createElement("p");
     valorElement.style.fontSize = "2em";
+    valorElement.style.textAlign = "center";
+    valorElement.style.marginTop = "2em";
     
     const divDosResultados = document.querySelector(".valor-desconto");
     divDosResultados.appendChild(valorElement);
